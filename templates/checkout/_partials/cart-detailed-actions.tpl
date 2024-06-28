@@ -24,9 +24,9 @@
  *}
 {block name='cart_detailed_actions'}
   <div class="checkout cart-detailed-actions js-cart-detailed-actions card-block">
-    {if $cart.minimalPurchaseRequired}
+    {if $cart.minimal_purchase_required}
       <div class="alert alert-warning" role="alert">
-        {$cart.minimalPurchaseRequired}
+        {$cart.minimal_purchase_required}
       </div>
       <div class="text-sm-center">
         <button type="button" class="btn btn-primary disabled" disabled>{l s='Proceed to checkout' d='Shop.Theme.Actions'}</button>
